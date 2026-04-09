@@ -83,10 +83,10 @@ jobs:
     steps:
       - name: 🚀 Fake Deploy
         run: |
-          echo "🔐 Authenticating..."
+          echo " Authenticating..."
           sleep 1
-          echo "📦 Preparing build..."
+          echo " Preparing build..."
           sleep 1
-          echo "🚀 Deploying to server..."
+          echo " Deploying to server..."
           sleep 1
-          echo "✅ Deployment completed successfully!"
+          echo " Deployment completed successfully!"
